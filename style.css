@@ -109,8 +109,7 @@ h3 {
 body.mouth-open {
   background-image: url('papa bday.png'); /* your image file */
   background-size: cover;       /* makes it cover the whole screen */
-  background-position: center;  /* center it */
-  background-repeat: repeat; /* don’t repeat the image */
+  background-position: center;  /* center it */ /* don’t repeat the image */
   height: 100vh;                /* ensure body fills the viewport */
   min-height: 100%;
 }
