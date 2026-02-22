@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dad's BDay</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script defer src="https://cdn.jsdelivr.net/npm/face-api.js@0.22.2/dist/face-api.min.js"></script>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="box1"><h1>Happy Birthday Papa!</h1></div>
+        <div class="box2">
+            <video id="video" autoplay muted></video>
+            <img src="bday-cap!.png" id="overlay" alt="overlay">
+            <img src="bday-cake.png" class="hidden" id="bday-cake-1" alt="bday-cake-1">
+            <img src="bday-cake copy.png" id="bday-cake-2" alt="bday-cake-2">
+        </div>
+        
+        <div class="reset-button">
+            <h2>Make a wish!</h2>
+            <button id="play-audio">Play!</button>
+            <button id="reset">Reset</button>
+            <a href="index2.html"><h3>A message for you (click here)</h3></a>
+        </div>
+        <audio controls autoplay id="audio">
+                <source src="bday-song.m4a" type="audio/mpeg">
+        </audio>
+    </div>
+</body>
+</html>

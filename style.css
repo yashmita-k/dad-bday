@@ -1,0 +1,128 @@
+@font-face {
+  font-family: 'brick-sans';
+  src: url(NTBrickSans.ttf);
+}
+
+html {
+    min-height: 100%;
+    background-image: linear-gradient(#390099, #9e0059);
+    background-repeat: no-repeat;
+}
+
+body {
+    margin: 0;
+    font-family: 'brick-sans'; 
+    transition: 0.3 ease;
+}
+
+
+video {
+    width:600px;
+    border-radius: 60px;
+
+}
+
+h1 {
+    color:#ff5400;
+    font-size:60px;  /*1st change*/
+}
+
+h2 {
+    color:#ff5400;
+    font-size:25px;  
+    margin: 0px;
+}
+
+h3 {
+    color:burlywood;
+    font-size:20px;  
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 {
+    width:1200px;
+    height:200px;
+    text-align: center;
+}
+
+.box2 {
+    width:600px;
+    height:450px;
+    text-align: center;
+}
+
+#overlay {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    width:300px;
+    transform: translate(-50%, 5%);
+}
+
+#bday-cake-1 {
+    position: absolute;
+    top:15%;
+    left: 50%;
+    width:250px;
+    transform: translate(-50%, 100%);
+}
+
+#bday-cake-2 {
+    position: absolute;
+    top:30%;
+    left: 50%;
+    width:250px;
+    transform: translate(-50%, 100%);
+}
+
+.hidden {
+    display:none;
+}
+
+.reset-button {
+    text-align: center;
+    height:100px;
+    margin-top: 150px;
+}
+
+#play-audio, #reset {
+    border-radius: 40px;
+    background-color: #390099;
+    color: #ff5400;
+    border: none;
+    font-size: 15px;
+    font-family: 'brick-sans';
+
+}
+
+#play-audio:hover, #reset:hover {
+    background-color: aquamarine;
+}
+
+body.mouth-open {
+  background-image: url('papa bday.png'); /* your image file */
+  background-size: cover;       /* makes it cover the whole screen */
+  background-position: center;  /* center it */
+  background-repeat: no-repeat; /* don’t repeat the image */
+  height: 100vh;                /* ensure body fills the viewport */
+  min-height: 100%;
+}
+
+#message-box {
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    background-color:#390099;
+    width: 1000px;
+    padding: 100px;
+    margin: auto;
+    border-radius: 40px;
+}
